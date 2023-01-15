@@ -10,6 +10,8 @@
     "format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
+    "start:movies:dev": "nest start movies --watch",
+    "start:notifications:dev": "nest start notifications --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/apps/accounts/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
@@ -23,7 +25,9 @@
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/microservices": "^9.2.1",
+    "@nestjs/mongoose": "^9.2.1",
     "@nestjs/platform-express": "^9.0.0",
+    "mongoose": "^6.8.3",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0"
   },
