@@ -2,7 +2,7 @@ import { Controller, Get, HttpStatus } from '@nestjs/common';
 import { Res } from '@nestjs/common/decorators';
 import { MoviesService } from './movies.service';
 
-@Controller('movies')
+@Controller('api/v1/movies')
 export class MoviesController {
     constructor(
         private moviesService: MoviesService

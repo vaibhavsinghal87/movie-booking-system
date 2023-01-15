@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
-import { Movie } from '../../schemas/movie.schema';
+import { Movie } from './schemas/movie.schema';
 import { MoviesRepository } from './repositories/movies.repository';
 
 @Injectable()

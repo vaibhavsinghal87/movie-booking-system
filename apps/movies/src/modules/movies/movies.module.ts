@@ -3,7 +3,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { MoviesController } from './movies.controller';
 import { MoviesService } from './movies.service';
 
-import { Movie, MovieSchema } from '../../schemas/movie.schema';
+import { Movie, MovieSchema } from './schemas/movie.schema';
 import { MoviesRepository } from './repositories/movies.repository';
 
 @Module({
