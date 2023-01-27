@@ -10,4 +10,4 @@ COPY . .
 
 RUN npm run movies:build
 
-CMD ["node", "dist/apps/movies/main"]
+CMD ["npm", "run", "movies:start:prod"]
