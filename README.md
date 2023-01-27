@@ -1,4 +1,7 @@
 # movie-booking-system
-Movie Booking App
 
-Monorepo for Accounts, Movies, Notifications Microservices
+Monorepo for - \
+\
+Accounts Microservices \
+[Movies Microservices] (/apps/movies/README.md) \
+Notifications Microservices \
