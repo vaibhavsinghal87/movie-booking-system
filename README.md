@@ -3,5 +3,5 @@
 Monorepo for - \
 \
 Accounts Microservices \
-[Movies Microservices](/apps/movies/README.md)  
+[Movies Microservices](./apps/movies)  
 Notifications Microservices 
