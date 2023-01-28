@@ -1,5 +1,4 @@
 import { Injectable } from '@nestjs/common';
-
 import { Movie } from './schemas/movie.schema';
 import { MoviesRepository } from './repositories/movies.repository';
 
@@ -11,6 +10,10 @@ export class MoviesService {
 
   async findAll(): Promise<Movie[]> {
     return this.moviesRepository.findAll();
+  }
+
+  async filterMovies(filterData): Promise<Movie[]> {
+    return this.moviesRepository.filterMovies(filterData);
   }
 }
 

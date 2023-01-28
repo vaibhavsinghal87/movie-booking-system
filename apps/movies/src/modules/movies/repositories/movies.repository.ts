@@ -13,4 +13,9 @@ export class MoviesRepository {
     async findAll(): Promise<Movie[]> {
         return this.movieModel.find().exec();
     }
+
+    async filterMovies(filterData): Promise<Movie[]> {
+        return this.movieModel.
+            where('genre').equals(filterData.genre);
+    }
 }
