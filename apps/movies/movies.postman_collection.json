@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "725383f5-6a7a-47e2-b8d4-035e6dd48bf4",
+		"name": "movies",
+		"description": "APIs for movies microservices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3001/api/v1/movies/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/v1/movies/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"v1",
+						"movies",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/v1/movies/explore?genre=Action",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/v1/movies/explore?genre=Action",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"v1",
+						"movies",
+						"explore"
+					],
+					"query": [
+						{
+							"key": "genre",
+							"value": "Action"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
