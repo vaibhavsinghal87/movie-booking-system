@@ -10,21 +10,15 @@ Contains APIs for querying/filtering movies
 
 # Quick Start
 
-Run following command to start movies MS in DEV mode -  
+Run following command to start movies MS in DEV mode. Movies MS should now be available on port *_3001_*. 
 ```
 npm run movies:start:dev
 ```
 
-Movies MS should now be available on port *_3001_*.
-
-Open *Swagger* to try out APIs using below URL -  
+Once the application is running you can visit below URL to see the *Swagger* interface -  
 ```
 http://localhost:3001/api
 ```
-
-# Database 
-
-On start, Movies MS connects to *MongoDB Atlas* to query movie booking system database.
 
 # Test
 
@@ -32,7 +26,11 @@ On start, Movies MS connects to *MongoDB Atlas* to query movie booking system da
 npm run movies:test
 ```
 
-# Postman Collection
+# Database 
+
+On start, Movies MS connects to *MongoDB Atlas* to query movie booking system database.
+
+# Postman
 
 Refer *movies.postman_collection.json* to use APIs via Postman
 
